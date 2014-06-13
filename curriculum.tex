@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+% Modified by Guillaume Lobet, Université de Liège
+% 20140613
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{impactbib.bib} 
+
+
+\begin{document}
+
+\header{John}{Doe}{Greatest researcher ever}
+
+
+%----------------------------------------------------
+%----------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------
+%----------------------------------------------------
+
+\thispagestyle{first}
+
+\begin{aside} 
+~\vspace{45pt}
+
+
+\section{Informations}
+John Doe
+\href{mailto:me@myself}{me@myself}
+\href{http://www.impactstory.org}{www.impactstory.org}
+
+~\vspace{10pt}
+
+\section{Mission statement}
+Contribute to science!
+
+~\vspace{10pt}
+
+\section{Keywords}
+Science
+Science
+Science
+
+~\vspace{10pt}
+
+\section{Languages}
+English {\color{light}\ding{72}\ding{72}\ding{72}\ding{73}}
+Klingon {\color{light}\ding{72}\ding{72}\ding{72}\ding{72}}
+
+\end{aside}
+
+
+
+%----------------------------------------------------
+%	PROFESIONNAL EXPERIENCE SECTION
+%----------------------------------------------------
+
+\section{Professional experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--Now}
+{Post-doctoral fellow}
+{Great lab, Best Uni}
+{The aim of this research is to better understand the world.\\}
+
+%------------------------------------------------
+\entry
+{2008--2012}
+{PhD student}
+{Best Lab, Great Uni}
+{
+\emph{My great thesis}\\
+\emph{Supervisor:} Prof. Charles Xavier\\
+The objective of the thesis was to be a Doctor!
+}
+
+%------------------------------------------------
+\end{entrylist}
+
+\rule{\linewidth}{0.1pt}
+
+
+%----------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+
+\entry
+{2008--2012}
+{PhD {\normalfont in science}}
+{Geat Lab}
+{\emph{See above for details} \\
+}
+
+
+\entry
+{2003--2008}
+{Master {\normalfont in science}}
+{Best Uni}
+{Magna Cum Laude \\ }
+
+
+\end{entrylist}
+
+
+
+%----------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------
+
+\rule{\linewidth}{0.1pt}
+
+\section{Teaching and supervision}
+
+\descr 
+{Teaching and organisation}
+{Best Uni}
+{Science 101, Science 102}
+
+\descr 
+{Thesis supervision}
+{Great Lab}
+{Supervision of \textbf{42 PhD} and \textbf{56 master} theses}
+
+
+
+
+%----------------------------------------------------
+%	MISCELLANEOUS SECTION
+%----------------------------------------------------
+
+\rule{\linewidth}{0.1pt}
+
+
+\section{Miscellaneous}
+
+\begin{entrylist}
+\entry
+{2011-Now}
+{\textit{Ad hoc} reviewer}
+{}
+{Best Journal Ever, Second best journal}
+
+
+\entry
+{2014-Now}
+{ImpactStory advisor}
+{}
+{}
+
+\entry
+{2002-2008}
+{Klingon teacher}
+{Star Trek Academy}
+{}
+
+\end{entrylist}
+
+
+
+%----------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------
+
+
+\rule{\linewidth}{0.1pt}
+
+
+\section{Interests}
+\descr
+{Professional}{}{Science, Science, Science}
+
+\descr
+{Personal}{}{Science, Science, Science}
+
+
+
+%------------------------------------------------
+%	PUBLICATIONS SECTION
+%-------------------------------------------------
+
+
+\newpage
+~
+\vspace{0.05cm}
+
+\section{Publications}
+
+
+% Print the papers
+\begin{refsection}
+\nocite{*}
+\printbibliography[sorting=chronological, type=article, title={Articles}, keyword={article}, heading=subbibliography]
+\end{refsection}
+
+
+% Print the presentations
+\begin{refsection}
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={Presentations}, keyword={presentation}, heading=subbibliography]
+\end{refsection}
+
+% Print the posters
+\begin{refsection}
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={Posters}, keyword={poster}, heading=subbibliography]
+\end{refsection}
+
+
+\end{document} 
+
+
+
