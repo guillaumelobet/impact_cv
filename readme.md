@@ -31,7 +31,9 @@ To install them, run in the terminal:
 	cpan Try::Tiny
 	cpan XML::Simple
 	
-Before running the PErl file, do not forget to edit you profile link (line 17). 
+Before running the Perl file, do not forget to edit you profile link (line 17). 
+
+The Perl script create a bib file (impactbib.bib), used by LaTeX to generate the CV.
 
 
 ## LaTeX script
