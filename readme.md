@@ -42,5 +42,8 @@ The LaTeX script is based on the CV template from Adrien Friggeri (adrien@frigge
 
 You need to used XeLaTeX and biber to make it run smoothly.
 
+## Disclaimer
+
+This is only the second time I use Perl. So the code is certainly unefficient, badly written and full of mistakes. But it works. So feel free to improve it!
 
 
