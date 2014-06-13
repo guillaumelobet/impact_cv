@@ -1,4 +1,4 @@
-# Impact curriculum
+# ImpactStory curriculum
 
 ## Overview
 
