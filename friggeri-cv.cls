@@ -265,7 +265,6 @@
         }                
     }
 }
-\DeclareFieldFormat{usera}{\footnotesize\addfontfeature{Color=lightgray}{#1}}
 
 %\AtEveryBibitem{%
 %    \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
