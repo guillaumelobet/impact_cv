@@ -1,5 +1,7 @@
 # ImpactStory curriculum
 
+Web version available here: [www.guillaumelobet.be/impact](www.guillaumelobet.be/impact)
+
 ## Overview
 
 The aim of the porject is to automaticlly generate a curriculum using LaTeX and the information contained on an ImpactStory profile (altmetrics).
