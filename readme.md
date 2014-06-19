@@ -1,6 +1,6 @@
 # ImpactStory curriculum
 
-Web version available here: [www.guillaumelobet.be/impact](www.guillaumelobet.be/impact)
+Web version available here: [www.guillaumelobet.be/impact](http://www.guillaumelobet.be/impact)
 
 ## Overview
 
