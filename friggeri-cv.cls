@@ -262,18 +262,15 @@
         \map{
             \step[fieldsource=shares]
             \step[fieldset=userd,origfieldval]
-        }                
+        }   
+        % Map the downloads
+        \map{
+            \step[fieldsource=downloads]
+            \step[fieldset=usere,origfieldval]
+        }                        
     }
 }
 
-%\AtEveryBibitem{%
-%    \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
-%        \iffieldundef{usera}{%
-%        {0}}{%
-%        \printfield{usera}
-%        }
-%    }
-%}
 
 
 \DeclareFieldFormat[article]{title}{#1\par}
@@ -329,10 +326,12 @@
   \newblock%
   {%
     \footnotesize\addfontfeature{Color=lightgray}%
-    figshare view(s):
+    View(s):
     \printfield{userc}%
-    , figshare share(s):
+    , share(s):
     \printfield{userd}%
+    , download(s):
+    \printfield{userd}%    
   }  
   \par\vspace{0.6\baselineskip}  
 }
