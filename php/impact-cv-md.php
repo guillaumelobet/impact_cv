@@ -1,6 +1,7 @@
 <?
 
 	$user = $_POST['username'];
+	$pdf = $_POST['export'] == "pdf";
 	$paper = isset($_POST['paper']);
     $presentation = isset($_POST['presentation']);
     $poster = isset($_POST['poster']);
@@ -10,12 +11,13 @@
 	$json_str = file_get_contents($impacturl);
 	$json = json_decode($json_str);
 	
-	$bibfile = "# Publication list of " . $user . "\n";
-	$bibfile = $bibfile . " File generated using the impact_cv widget, created by Guillaume Lobet (Université de Liège) \n\n";
-	$bibfile = $bibfile . " Website: www.guillaumelobet.be/impact \n\n";
-	$bibfile = $bibfile . " Source code: https://github.com/guillaumelobet/impact_cv \n\n";
-	$bibfile = $bibfile . " " . date(DATE_RFC2822) . "\n \n";
-
+	$bibfile = "# Publication list of " . $json->about->given_name . " " . $json->about->surname . "\n";
+	if(!pdf){
+		$bibfile = $bibfile . " File generated using the impact_cv widget, created by Guillaume Lobet (Université de Liège) \n\n";
+		$bibfile = $bibfile . " Website: www.guillaumelobet.be/impact \n\n";
+		$bibfile = $bibfile . " Source code: https://github.com/guillaumelobet/impact_cv \n\n";
+		$bibfile = $bibfile . " " . date(DATE_RFC2822) . "\n \n";
+	}
 	$products = $json->products;
 	$key = 1;
 	$key2 = 1;
@@ -132,12 +134,12 @@
 
 
   	// Print the metrics
-	$bibfile = $bibfile . "## Overview \n";	
+	if(!$pdf) $bibfile = $bibfile . "## Overview \n";	
 
 	if($paper){
 		$bibfile = $bibfile . " - Number of papers = " . $tot_papers . " \n";
 		$bibfile = $bibfile . " - Total number of citations = " . $citations . " \n";
-		$bibfile = $bibfile . " - Avergae number of citations = " . ($citations/$tot_papers) . " \n";
+		$bibfile = $bibfile . " - Average number of citations = " . ($citations/$tot_papers) . " \n";
 		$bibfile = $bibfile . " - Total number of Mendeley readers = " . $readers . " \n";
 		if($hi > 0) $bibfile = $bibfile . " - h-index [Scopus] = " . $hi . " \n";
 	}
@@ -153,7 +155,7 @@
 	}
 	$bibfile  =$bibfile . "\n";
 	// Get the papers
-	$bibfile = $bibfile . "## Papers \n";	
+	if($paper) $bibfile = $bibfile . "## Papers \n";	
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
@@ -223,7 +225,7 @@
 			
 
   	# Get the presentations
-  	$bibfile = $bibfile . "## Presentations \n";
+  	if($presentation) $bibfile = $bibfile . "## Presentations \n";
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
   			if($presentation){
@@ -273,7 +275,7 @@
   	}
 
   	# Get the posters
-	$bibfile = $bibfile . "## Posters \n";  		
+	if($poster) $bibfile = $bibfile . "## Posters \n";  		
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
   			if($poster){
@@ -310,21 +312,21 @@
 		}
 	}
 
-	$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.md';
-	file_put_contents($fname , $bibfile);
-	
-	if (file_exists($fname)) {
-    	header('Content-Description: File Transfer');
-    	header('Content-Type: application/octet-stream');
-    	header('Content-Disposition: attachment; filename='.basename($fname));
-    	header('Expires: 0');
-    	header('Cache-Control: must-revalidate');
-    	header('Pragma: public');
-    	header('Content-Length: ' . filesize($fname));
-    	ob_clean();
-    	flush();
-    	readfile($fname);
-		unlink($fname);	
-	}
+		$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.md';
+		file_put_contents($fname , $bibfile);
+		
+		if (file_exists($fname)) {
+	    	header('Content-Description: File Transfer');
+	    	header('Content-Type: application/octet-stream');
+	    	header('Content-Disposition: attachment; filename='.basename($fname));
+	    	header('Expires: 0');
+	    	header('Cache-Control: must-revalidate');
+	    	header('Pragma: public');
+	    	header('Content-Length: ' . filesize($fname));
+	    	ob_clean();
+	    	flush();
+	    	readfile($fname);
+			unlink($fname);	
+		}
 
 ?>

@@ -4,16 +4,17 @@
 	$paper = isset($_POST['paper']);
     $presentation = isset($_POST['presentation']);
     $poster = isset($_POST['poster']);
-
-    echo $user;
     
 	// Get the JSON file and decode it
-	$impacturl = "https://impactstory.org/user/".$user;
+	$impacturl = "https://impactstory.org/profile/".$user;
 	$json_str = file_get_contents($impacturl);
 	$json = json_decode($json_str);
 	
-	$bibfile = "% File generated using the impact_cv widget, create by Guillaume Lobet \n";
-	
+	$bibfile = "% File generated using the impact_cv widget, create by Guillaume Lobet (Université de Liège) \n";
+	$bibfile = $bibfile . "% Website: www.guillaumelobet.be/impact \n";
+	$bibfile = $bibfile . "% Source code: https://github.com/guillaumelobet/impact_cv \n";
+	$bibfile = $bibfile . "% " . date(DATE_RFC2822) . "\n \n";
+
 	$products = $json->products;
 	$key = 1;
 	$key2 = 1;
@@ -91,13 +92,13 @@
 
   			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'slides') && str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 					$bibfile = $bibfile . '@inproceedings{presentation' . $key2 . ", \n";
 			  		$bibfile = $bibfile . 'title = {{' . $prod->biblio->title . "}}, \n";
-			  		$bibfile = $bibfile . "booktitle = {figshare}, \n";
-			  		$bibfile = $bibfile . 'year = {' . $prod->biblio->year . "}, \n";
+			  		$bibfile = $bibfile . "booktitle = {" . $prod->biblio->repository . "}, \n";
+			  		if(isset($prod->biblio->year)) $bibfile = $bibfile . 'year = {' . $prod->biblio->year . "}, \n";
 			  		$bibfile = $bibfile . 'keywords = {presentation} ';
 					
 					# Get the metrics
@@ -115,7 +116,19 @@
 			  				if(str::contains($m->interaction, 'shares')){
 								$bibfile = $bibfile . ",\nshares = {" . $m->display_count . "}"; 
 							}
-			  			}		
+			  			}
+						# Slideshare metrics
+						if(str::contains($m->display_provider, 'Slideshare')){
+			  				
+			  				# Figshare views
+			  				if(str::contains($m->interaction, 'views')){
+								$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
+							}
+							# Figshare shares
+			  				if(str::contains($m->interaction, 'downloads')){
+								$bibfile = $bibfile . ",\ndownloads = {" . $m->display_count . "}"; 
+							}
+			  			}			  					
 
 			  		}
 			  		$bibfile = $bibfile . "} \n \n";
@@ -158,6 +171,11 @@
   			}
 		}
 		}
-	file_put_contents('impact_cv_'.$user.'.bib' , $bibfile);
+	//echo dirname(__FILE__).'../../assets/cv/';
+	$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.bib';
+	file_put_contents($fname , $bibfile);
+	header('Content-Type: text/plain');
+	header('Content-Disposition: attachment; filename="'.$fname.'"');
+	header('location:'.$fname);	
 }
 ?>
