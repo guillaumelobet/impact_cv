@@ -1,7 +1,6 @@
 <?
 
 	$user = $_POST['username'];
-	$pdf = $_POST['export'] == "pdf";
 	$paper = isset($_POST['paper']);
     $presentation = isset($_POST['presentation']);
     $poster = isset($_POST['poster']);
@@ -12,12 +11,11 @@
 	$json = json_decode($json_str);
 	
 	$bibfile = "# Publication list of " . $json->about->given_name . " " . $json->about->surname . "\n";
-	if(!pdf){
-		$bibfile = $bibfile . " File generated using the impact_cv widget, created by Guillaume Lobet (Université de Liège) \n\n";
-		$bibfile = $bibfile . " Website: www.guillaumelobet.be/impact \n\n";
-		$bibfile = $bibfile . " Source code: https://github.com/guillaumelobet/impact_cv \n\n";
-		$bibfile = $bibfile . " " . date(DATE_RFC2822) . "\n \n";
-	}
+	$bibfile = $bibfile . " File generated using the impact_cv widget, created by Guillaume Lobet (Université de Liège) \n\n";
+	$bibfile = $bibfile . " Website: www.guillaumelobet.be/impact \n\n";
+	$bibfile = $bibfile . " Source code: https://github.com/guillaumelobet/impact_cv \n\n";
+	$bibfile = $bibfile . " " . date(DATE_RFC2822) . "\n \n";
+
 	$products = $json->products;
 	$key = 1;
 	$key2 = 1;
@@ -39,7 +37,7 @@
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
-				if(str::contains($prod->biblio->genre, 'article')){
+				if(str::contains($prod->biblio->calculated_genre, 'article')){
 
 					// Get the metrics
 					$metrics = $prod->metrics;
@@ -64,7 +62,7 @@
   			}
 			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'slides')){ 
+				if(str::contains($prod->biblio->calculated_genre, 'slides')){ 
 					# Get the metrics
 					$metrics = $prod->metrics;
 					foreach($metrics as $m) {	
@@ -100,7 +98,7 @@
 			}
 			if($poster){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'slides')){ 
+				if(str::contains($prod->biblio->calculated_genre, 'poster')){ 
 					# Get the metrics
 					$metrics = $prod->metrics;
 					foreach($metrics as $m) {	
@@ -134,7 +132,7 @@
 
 
   	// Print the metrics
-	if(!$pdf) $bibfile = $bibfile . "## Overview \n";	
+	$bibfile = $bibfile . "## Overview \n";	
 
 	if($paper){
 		$bibfile = $bibfile . " - Number of papers = " . $tot_papers . " \n";
@@ -159,16 +157,17 @@
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
-				if(str::contains($prod->biblio->genre, 'article')){
+				if(str::contains($prod->biblio->calculated_genre, 'article')){
 
 
 					// Get the missing information in PubMed
 					// Initialize the values
-					$vol = "";
-					$issue = "";
-					$pp = "";
+					$vol = "0000";
+					$issue = "0000";
+					$pp = "0000";
 					
 					// Get the missing inforation on pubmed
+					if(1==0){
 					try {
 
 						if(isset($prod->aliases->pmid)){
@@ -187,15 +186,16 @@
 							if(isset($art->Pagination->MedlinePgn)) $pp = $art->Pagination->MedlinePgn;
 						}
 
-					} catch(Exception $e) {};				
+					} catch(Exception $e) {};	
+					}			
 
 					// Print the general article information
-			  		$bibfile = $bibfile . $key . '. **'. $prod->biblio->title . "** \n";
+			  		$bibfile = $bibfile . $key . '. **'. $prod->biblio->display_title . "** \n";
 					$bibfile = $bibfile . $prod->biblio->authors;
-			  		$bibfile = $bibfile . " (" . $prod->biblio->year . "), ";
+			  		$bibfile = $bibfile . " (" . $prod->biblio->display_year . "), ";
 			  		$bibfile = $bibfile . $prod->biblio->journal . ", ";
-			  		$bibfile = $bibfile . $vol . ":" . $issue . ", ";
-			  		$bibfile = $bibfile . "pp. " . $pp . " \n";
+			  		if($vol != "0000") $bibfile = $bibfile . $vol . ":" . $issue . ", ";
+			  		if($pp != "0000") $bibfile = $bibfile . "pp. " . $pp . " \n";
 
 				
 					// Get the metrics
@@ -230,7 +230,7 @@
 		if(isset($prod->biblio)){
   			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->calculated_genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 			  		$bibfile = $bibfile . $key2 . '. **' . $prod->biblio->title . "**, \n";
@@ -280,7 +280,7 @@
 		if(isset($prod->biblio)){
   			if($poster){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->calculated_genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 			  		$bibfile = $bibfile . $key3 . '. **' . $prod->biblio->title . "** \n";
@@ -311,6 +311,7 @@
   			}
 		}
 	}
+	echo $bibfile;
 
 		$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.md';
 		file_put_contents($fname , $bibfile);

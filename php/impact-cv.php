@@ -24,7 +24,7 @@
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
-				if(str::contains($prod->biblio->genre, 'article')){
+				if(str::contains($prod->biblio->calculated_genre, 'article')){
 
 
 					// Get the missing information in PubMed
@@ -34,6 +34,7 @@
 					$pp = "";
 					
 					// Get the missing inforation on pubmed
+					if(1==0){
 					try {
 
 						if(isset($prod->aliases->pmid)){
@@ -52,17 +53,18 @@
 							if(isset($art->Pagination->MedlinePgn)) $pp = $art->Pagination->MedlinePgn;
 						}
 
-					} catch(Exception $e) {};				
+					} catch(Exception $e) {};		
+					}		
 
 					// Print the general article information
 					$bibfile = $bibfile . '@article{article' . $key . ", \n";
 
 					$bibfile = $bibfile . 'author = {' . $prod->biblio->authors . "}, \n";
-			  		$bibfile = $bibfile . 'title = {{' . $prod->biblio->title . "}}, \n";
+			  		$bibfile = $bibfile . 'title = {{' . $prod->biblio->display_title . "}}, \n";
 			  		$bibfile = $bibfile . 'journal = {' . $prod->biblio->journal . "}, \n";
-			  		$bibfile = $bibfile . 'volume = {' . $vol . ":" . $issue . "}, \n";
-			  		$bibfile = $bibfile . 'pages = {' . $pp . "}, \n";
-			  		$bibfile = $bibfile . 'year = {' . $prod->biblio->year . "}, \n";
+			  		if($vol!='0000') $bibfile = $bibfile . 'volume = {' . $vol . ":" . $issue . "}, \n";
+			  		if($pp!='0000') $bibfile = $bibfile . 'pages = {' . $pp . "}, \n";
+			  		$bibfile = $bibfile . 'year = {' . $prod->biblio->display_year . "}, \n";
 			  		$bibfile = $bibfile . 'keywords = {article} ';
 
 				
@@ -92,7 +94,7 @@
 
   			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->calculated_genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 					$bibfile = $bibfile . '@inproceedings{presentation' . $key2 . ", \n";
@@ -138,7 +140,7 @@
   		
   			if($poster){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->calculated_genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 					$bibfile = $bibfile . '@inproceedings{presentation' . $key2 . ", \n";
@@ -171,11 +173,22 @@
   			}
 		}
 		}
-	//echo dirname(__FILE__).'../../assets/cv/';
-	$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.bib';
-	file_put_contents($fname , $bibfile);
-	header('Content-Type: text/plain');
-	header('Content-Disposition: attachment; filename="'.$fname.'"');
-	header('location:'.$fname);	
+	
+		$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.bib';
+		file_put_contents($fname , $bibfile);
+		
+		if (file_exists($fname)) {
+	    	header('Content-Description: File Transfer');
+	    	header('Content-Type: application/octet-stream');
+	    	header('Content-Disposition: attachment; filename='.basename($fname));
+	    	header('Expires: 0');
+	    	header('Cache-Control: must-revalidate');
+	    	header('Pragma: public');
+	    	header('Content-Length: ' . filesize($fname));
+	    	ob_clean();
+	    	flush();
+	    	readfile($fname);
+			unlink($fname);	
+		}	
 }
 ?>
