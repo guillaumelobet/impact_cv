@@ -93,7 +93,7 @@ if(1==1){
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
-				if(str::contains($prod->biblio->calculated_genre, 'article')){
+				if(str::contains($prod->biblio->genre, 'article')){
 
 					// Get the metrics
 					$metrics = $prod->metrics;
@@ -118,7 +118,7 @@ if(1==1){
   			}
 			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'slides')){ 
+				if(str::contains($prod->biblio->genre, 'slides')){ 
 					# Get the metrics
 					$metrics = $prod->metrics;
 					foreach($metrics as $m) {	
@@ -154,7 +154,7 @@ if(1==1){
 			}
 			if($poster){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'poster')){ 
+				if(str::contains($prod->biblio->genre, 'slides')){ 
 					# Get the metrics
 					$metrics = $prod->metrics;
 					foreach($metrics as $m) {	
@@ -216,7 +216,7 @@ if(1==1){
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
-				if(str::contains($prod->biblio->calculated_genre, 'article')){
+				if(str::contains($prod->biblio->genre, 'article')){
 
 
 					// Get the missing information in PubMed
@@ -226,7 +226,6 @@ if(1==1){
 					$pp = "0000";
 					
 					// Get the missing inforation on pubmed
-					if(1==0){
 					try {
 
 						if(isset($prod->aliases->pmid)){
@@ -244,14 +243,14 @@ if(1==1){
 							if(isset($art->Journal->JournalIssue->Issue)) $issue = $art->Journal->JournalIssue->Issue;
 							if(isset($art->Pagination->MedlinePgn)) $pp = $art->Pagination->MedlinePgn;
 						}
-	
-						} catch(Exception $e) {};				
-					}
+
+					} catch(Exception $e) {};				
+
 					// Print the general article information
 			  		$bibfile = $bibfile . "<div class='bibitem'>";
-			  		$bibfile = $bibfile . "<span class='num'>" . $key . '.</span> <span class="title">'. $prod->biblio->display_title . "</span><br>";
+			  		$bibfile = $bibfile . "<span class='num'>" . $key . '.</span> <span class="title">'. $prod->biblio->title . "</span><br>";
 					$bibfile = $bibfile . "<span class='auth'> " . $prod->biblio->authors . "</span>";
-			  		$bibfile = $bibfile . "<span class='year'> " . " (" . $prod->biblio->display_year . ")</span> ";
+			  		$bibfile = $bibfile . "<span class='year'> " . " (" . $prod->biblio->year . ")</span> ";
 			  		$bibfile = $bibfile . "<span class='journ'> " . $prod->biblio->journal . "</span> ";
 			  		if(!str::contains($vol, "0000")) $bibfile = $bibfile . ",<span class='vol'>" . $vol . "</span>";
 			  		if(!str::contains($issue, "0000")) $bibfile = $bibfile . ":<span class='iss'>". $issue . "</span> ";
@@ -290,7 +289,7 @@ if(1==1){
 		if(isset($prod->biblio)){
   			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 			  		$bibfile = $bibfile . "<div class='bibitem'>";	
@@ -341,7 +340,7 @@ if(1==1){
 		if(isset($prod->biblio)){
   			if($poster){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
+				if(str::contains($prod->biblio->genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 			  		$bibfile = $bibfile . "<div class='bibitem'>";	

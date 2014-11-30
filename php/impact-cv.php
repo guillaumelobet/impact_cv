@@ -69,20 +69,24 @@
 
 				
 					// Get the metrics
-					$metrics = $prod->metrics;
-					foreach($metrics as $m){	
+					$awards = $prod->awards;
+					foreach($awards as $aw){	
 
-						// Scopus citations
-						if(str::contains($m->display_provider, 'Scopus')){
-		  					$bibfile = $bibfile . ",\ncitations = {" . $m->display_count . "}"; 
-		  				}
+						$metrics = $aw->metrics;
+						foreach($metrics as $m){	
 
-						// Mendeley metrics
-						if(str::contains($m->display_provider, 'Mendeley')){
+							// Scopus citations
+							if(str::contains($m->display_provider, 'Scopus')){
+			  					$bibfile = $bibfile . ",\ncitations = {" . $m->display_count . "}"; 
+			  				}
 
-							// Readers
-							if(str::contains($m->interaction, 'readers')){
-		  						$bibfile = $bibfile . ",\nreaders = {" . $m->display_count . "}"; 
+							// Mendeley metrics
+							if(str::contains($m->display_provider, 'Mendeley')){
+
+								// Readers
+								if(str::contains($m->interaction, 'readers')){
+		  							$bibfile = $bibfile . ",\nreaders = {" . $m->display_count . "}"; 
+		  						}
 		  					}
 		  				}
 	  				}
@@ -103,34 +107,38 @@
 			  		if(isset($prod->biblio->year)) $bibfile = $bibfile . 'year = {' . $prod->biblio->year . "}, \n";
 			  		$bibfile = $bibfile . 'keywords = {presentation} ';
 					
-					# Get the metrics
-					$metrics = $prod->metrics;
-					foreach($metrics as $m) {	
+					// Get the metrics
+					$awards = $prod->awards;
+					foreach($awards as $aw){	
 
-						# Figshare metrics
-						if(str::contains($m->display_provider, 'Figshare')){
-			  				
-			  				# Figshare views
-			  				if(str::contains($m->interaction, 'views')){
-								$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
-							}
-							# Figshare shares
-			  				if(str::contains($m->interaction, 'shares')){
-								$bibfile = $bibfile . ",\nshares = {" . $m->display_count . "}"; 
-							}
-			  			}
-						# Slideshare metrics
-						if(str::contains($m->display_provider, 'Slideshare')){
-			  				
-			  				# Figshare views
-			  				if(str::contains($m->interaction, 'views')){
-								$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
-							}
-							# Figshare shares
-			  				if(str::contains($m->interaction, 'downloads')){
-								$bibfile = $bibfile . ",\ndownloads = {" . $m->display_count . "}"; 
-							}
-			  			}			  					
+						$metrics = $aw->metrics;
+						foreach($metrics as $m){
+
+							# Figshare metrics
+							if(str::contains($m->display_provider, 'Figshare')){
+				  				
+				  				# Figshare views
+			  					if(str::contains($m->interaction, 'views')){
+									$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
+								}
+								# Figshare shares
+				  				if(str::contains($m->interaction, 'shares')){
+									$bibfile = $bibfile . ",\nshares = {" . $m->display_count . "}"; 
+								}
+				  			}
+							# Slideshare metrics
+							if(str::contains($m->display_provider, 'Slideshare')){
+			  					
+			  					# Figshare views
+				  				if(str::contains($m->interaction, 'views')){
+									$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
+								}
+								# Figshare shares
+			  					if(str::contains($m->interaction, 'downloads')){
+									$bibfile = $bibfile . ",\ndownloads = {" . $m->display_count . "}"; 
+								}
+				  			}			  					
+				  		}
 
 			  		}
 			  		$bibfile = $bibfile . "} \n \n";
@@ -149,23 +157,26 @@
 			  		$bibfile = $bibfile . 'year = {' . $prod->biblio->year . "}, \n";
 			  		$bibfile = $bibfile . 'keywords = {presentation} ';
 					
-					# Get the metrics
-					$metrics = $prod->metrics;
-					foreach($metrics as $m) {	
+					// Get the metrics
+					$awards = $prod->awards;
+					foreach($awards as $aw){	
 
-						# Figshare metrics
-						if(str::contains($m->display_provider, 'Figshare')){
+						$metrics = $aw->metrics;
+						foreach($metrics as $m){
+
+							# Figshare metrics
+							if(str::contains($m->display_provider, 'Figshare')){
 			  				
-			  				# Figshare views
-			  				if(str::contains($m->interaction, 'views')){
-								$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
-							}
-							# Figshare shares
-			  				if(str::contains($m->interaction, 'shares')){
-								$bibfile = $bibfile . ",\nshares = {" . $m->display_count . "}"; 
-							}
-			  			}		
-
+				  				# Figshare views
+				  				if(str::contains($m->interaction, 'views')){
+									$bibfile = $bibfile . ",\nviews = {" . $m->display_count . "}"; 
+								}
+								# Figshare shares
+			  					if(str::contains($m->interaction, 'shares')){
+									$bibfile = $bibfile . ",\nshares = {" . $m->display_count . "}"; 
+								}
+				  			}		
+				  		}
 			  		}
 			  		$bibfile = $bibfile . "} \n \n";
 					$key2 = $key2 + 1;	
