@@ -1,0 +1,2273 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist{entry}{chronological}
+    \entry{article1}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5fa9c91b1113a531de0fa09241c92566}
+      \strng{fullhash}{5fa9c91b1113a531de0fa09241c92566}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Plant Water Uptake in Drying Soils}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Plant Water Uptake in Drying Soils}}
+      \field{usera}{2}
+      \field{userb}{15}
+      \field{volume}{164:4}
+      \field{year}{2014}
+      \field{pages}{1619\bibrangedash 27}
+      \keyw{article}
+    \endentry
+    \entry{presentation2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{booktitle}{figshare}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userc}{6}
+      \field{year}{2014}
+      \keyw{presentation}
+    \endentry
+    \entry{article3}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a687117c56d3b7936155670381a5c127}
+      \strng{fullhash}{a687117c56d3b7936155670381a5c127}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userb}{2}
+      \field{volume}{5:}
+      \field{year}{2014}
+      \field{pages}{121}
+      \keyw{article}
+    \endentry
+    \entry{article10}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \strng{fullhash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{journaltitle}{Plant Soil}
+      \field{title}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{userb}{4}
+      \field{volume}{:}
+      \field{year}{2014}
+      \keyw{article}
+    \endentry
+    \entry{article2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \strng{fullhash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{usera}{5}
+      \field{userb}{17}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{1}
+      \keyw{article}
+    \endentry
+    \entry{article4}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5e69e8890477cb55064316e684e2c05c}
+      \strng{fullhash}{5e69e8890477cb55064316e684e2c05c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{An online database for plant image analysis software tools}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{An online database for plant image analysis software tools}}
+      \field{usera}{3}
+      \field{userb}{29}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{38}
+      \keyw{article}
+    \endentry
+    \entry{presentation6}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{userc}{28}
+      \field{userd}{1}
+      \field{year}{2013}
+      \keyw{presentation}
+    \endentry
+    \entry{article7}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d6c7e1735b4c21285192238be214249f}
+      \strng{fullhash}{d6c7e1735b4c21285192238be214249f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root water uptake and water flow in the soil-root domain}}
+      \field{journaltitle}{Plant Roots. The Hidden Half}
+      \field{title}{{Root water uptake and water flow in the soil-root domain}}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{article8}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0a85061710f02ade8480bc315513b1ce}
+      \strng{fullhash}{0a85061710f02ade8480bc315513b1ce}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{usera}{2}
+      \field{userb}{22}
+      \field{volume}{163:4}
+      \field{year}{2013}
+      \field{pages}{1487\bibrangedash 503}
+      \keyw{article}
+    \endentry
+    \entry{article9}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \strng{fullhash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{journaltitle}{Ecological Modelling}
+      \field{title}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userb}{3}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{poster1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{userc}{213}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{userc}{295}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{booktitle}{figshare}
+      \field{title}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{userc}{394}
+      \field{userd}{7}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{319}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{userc}{266}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{poster4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{583}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{userc}{223}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{presentation5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot gets topological}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot gets topological}}
+      \field{userc}{249}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{booktitle}{figshare}
+      \field{title}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{userc}{297}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation7}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{booktitle}{figshare}
+      \field{title}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userc}{240}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{article6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \strng{fullhash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{usera}{29}
+      \field{userb}{90}
+      \field{volume}{157:1}
+      \field{year}{2011}
+      \field{pages}{29\bibrangedash 39}
+      \keyw{article}
+    \endentry
+    \entry{article5}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \strng{fullhash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{journaltitle}{Journal of Experimental Botany}
+      \field{title}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{usera}{47}
+      \field{userb}{64}
+      \field{volume}{61:8}
+      \field{year}{2010}
+      \field{pages}{2145\bibrangedash 55}
+      \keyw{article}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{presentation2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{booktitle}{figshare}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userc}{6}
+      \field{year}{2014}
+      \keyw{presentation}
+    \endentry
+    \entry{article10}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \strng{fullhash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{journaltitle}{Plant Soil}
+      \field{title}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{userb}{4}
+      \field{volume}{:}
+      \field{year}{2014}
+      \keyw{article}
+    \endentry
+    \entry{article1}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5fa9c91b1113a531de0fa09241c92566}
+      \strng{fullhash}{5fa9c91b1113a531de0fa09241c92566}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Plant Water Uptake in Drying Soils}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Plant Water Uptake in Drying Soils}}
+      \field{usera}{2}
+      \field{userb}{15}
+      \field{volume}{164:4}
+      \field{year}{2014}
+      \field{pages}{1619\bibrangedash 27}
+      \keyw{article}
+    \endentry
+    \entry{article3}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a687117c56d3b7936155670381a5c127}
+      \strng{fullhash}{a687117c56d3b7936155670381a5c127}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userb}{2}
+      \field{volume}{5:}
+      \field{year}{2014}
+      \field{pages}{121}
+      \keyw{article}
+    \endentry
+    \entry{presentation6}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{userc}{28}
+      \field{userd}{1}
+      \field{year}{2013}
+      \keyw{presentation}
+    \endentry
+    \entry{article8}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0a85061710f02ade8480bc315513b1ce}
+      \strng{fullhash}{0a85061710f02ade8480bc315513b1ce}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{usera}{2}
+      \field{userb}{22}
+      \field{volume}{163:4}
+      \field{year}{2013}
+      \field{pages}{1487\bibrangedash 503}
+      \keyw{article}
+    \endentry
+    \entry{article2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \strng{fullhash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{usera}{5}
+      \field{userb}{17}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{1}
+      \keyw{article}
+    \endentry
+    \entry{article4}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5e69e8890477cb55064316e684e2c05c}
+      \strng{fullhash}{5e69e8890477cb55064316e684e2c05c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{An online database for plant image analysis software tools}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{An online database for plant image analysis software tools}}
+      \field{usera}{3}
+      \field{userb}{29}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{38}
+      \keyw{article}
+    \endentry
+    \entry{article7}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d6c7e1735b4c21285192238be214249f}
+      \strng{fullhash}{d6c7e1735b4c21285192238be214249f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root water uptake and water flow in the soil-root domain}}
+      \field{journaltitle}{Plant Roots. The Hidden Half}
+      \field{title}{{Root water uptake and water flow in the soil-root domain}}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{article9}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \strng{fullhash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{journaltitle}{Ecological Modelling}
+      \field{title}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userb}{3}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{presentation7}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{booktitle}{figshare}
+      \field{title}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userc}{240}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{userc}{266}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{poster5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{booktitle}{figshare}
+      \field{title}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{userc}{297}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{userc}{223}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{booktitle}{figshare}
+      \field{title}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{userc}{394}
+      \field{userd}{7}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{319}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{583}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot gets topological}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot gets topological}}
+      \field{userc}{249}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{userc}{213}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{userc}{295}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{article6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \strng{fullhash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{usera}{29}
+      \field{userb}{90}
+      \field{volume}{157:1}
+      \field{year}{2011}
+      \field{pages}{29\bibrangedash 39}
+      \keyw{article}
+    \endentry
+    \entry{article5}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \strng{fullhash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{journaltitle}{Journal of Experimental Botany}
+      \field{title}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{usera}{47}
+      \field{userb}{64}
+      \field{volume}{61:8}
+      \field{year}{2010}
+      \field{pages}{2145\bibrangedash 55}
+      \keyw{article}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{2}
+  \sortlist{entry}{chronological}
+    \entry{article1}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5fa9c91b1113a531de0fa09241c92566}
+      \strng{fullhash}{5fa9c91b1113a531de0fa09241c92566}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Plant Water Uptake in Drying Soils}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Plant Water Uptake in Drying Soils}}
+      \field{usera}{2}
+      \field{userb}{15}
+      \field{volume}{164:4}
+      \field{year}{2014}
+      \field{pages}{1619\bibrangedash 27}
+      \keyw{article}
+    \endentry
+    \entry{presentation2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{booktitle}{figshare}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userc}{6}
+      \field{year}{2014}
+      \keyw{presentation}
+    \endentry
+    \entry{article3}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a687117c56d3b7936155670381a5c127}
+      \strng{fullhash}{a687117c56d3b7936155670381a5c127}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userb}{2}
+      \field{volume}{5:}
+      \field{year}{2014}
+      \field{pages}{121}
+      \keyw{article}
+    \endentry
+    \entry{article10}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \strng{fullhash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{journaltitle}{Plant Soil}
+      \field{title}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{userb}{4}
+      \field{volume}{:}
+      \field{year}{2014}
+      \keyw{article}
+    \endentry
+    \entry{article2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \strng{fullhash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{usera}{5}
+      \field{userb}{17}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{1}
+      \keyw{article}
+    \endentry
+    \entry{article4}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5e69e8890477cb55064316e684e2c05c}
+      \strng{fullhash}{5e69e8890477cb55064316e684e2c05c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{An online database for plant image analysis software tools}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{An online database for plant image analysis software tools}}
+      \field{usera}{3}
+      \field{userb}{29}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{38}
+      \keyw{article}
+    \endentry
+    \entry{presentation6}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{userc}{28}
+      \field{userd}{1}
+      \field{year}{2013}
+      \keyw{presentation}
+    \endentry
+    \entry{article7}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d6c7e1735b4c21285192238be214249f}
+      \strng{fullhash}{d6c7e1735b4c21285192238be214249f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root water uptake and water flow in the soil-root domain}}
+      \field{journaltitle}{Plant Roots. The Hidden Half}
+      \field{title}{{Root water uptake and water flow in the soil-root domain}}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{article8}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0a85061710f02ade8480bc315513b1ce}
+      \strng{fullhash}{0a85061710f02ade8480bc315513b1ce}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{usera}{2}
+      \field{userb}{22}
+      \field{volume}{163:4}
+      \field{year}{2013}
+      \field{pages}{1487\bibrangedash 503}
+      \keyw{article}
+    \endentry
+    \entry{article9}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \strng{fullhash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{journaltitle}{Ecological Modelling}
+      \field{title}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userb}{3}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{poster1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{userc}{213}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{userc}{295}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{booktitle}{figshare}
+      \field{title}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{userc}{394}
+      \field{userd}{7}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{319}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{userc}{266}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{poster4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{583}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{userc}{223}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{presentation5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot gets topological}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot gets topological}}
+      \field{userc}{249}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{booktitle}{figshare}
+      \field{title}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{userc}{297}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation7}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{booktitle}{figshare}
+      \field{title}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userc}{240}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{article6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \strng{fullhash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{usera}{29}
+      \field{userb}{90}
+      \field{volume}{157:1}
+      \field{year}{2011}
+      \field{pages}{29\bibrangedash 39}
+      \keyw{article}
+    \endentry
+    \entry{article5}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \strng{fullhash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{journaltitle}{Journal of Experimental Botany}
+      \field{title}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{usera}{47}
+      \field{userb}{64}
+      \field{volume}{61:8}
+      \field{year}{2010}
+      \field{pages}{2145\bibrangedash 55}
+      \keyw{article}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{presentation2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{booktitle}{figshare}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userc}{6}
+      \field{year}{2014}
+      \keyw{presentation}
+    \endentry
+    \entry{article10}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \strng{fullhash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{journaltitle}{Plant Soil}
+      \field{title}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{userb}{4}
+      \field{volume}{:}
+      \field{year}{2014}
+      \keyw{article}
+    \endentry
+    \entry{article1}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5fa9c91b1113a531de0fa09241c92566}
+      \strng{fullhash}{5fa9c91b1113a531de0fa09241c92566}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Plant Water Uptake in Drying Soils}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Plant Water Uptake in Drying Soils}}
+      \field{usera}{2}
+      \field{userb}{15}
+      \field{volume}{164:4}
+      \field{year}{2014}
+      \field{pages}{1619\bibrangedash 27}
+      \keyw{article}
+    \endentry
+    \entry{article3}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a687117c56d3b7936155670381a5c127}
+      \strng{fullhash}{a687117c56d3b7936155670381a5c127}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userb}{2}
+      \field{volume}{5:}
+      \field{year}{2014}
+      \field{pages}{121}
+      \keyw{article}
+    \endentry
+    \entry{presentation6}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{userc}{28}
+      \field{userd}{1}
+      \field{year}{2013}
+      \keyw{presentation}
+    \endentry
+    \entry{article8}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0a85061710f02ade8480bc315513b1ce}
+      \strng{fullhash}{0a85061710f02ade8480bc315513b1ce}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{usera}{2}
+      \field{userb}{22}
+      \field{volume}{163:4}
+      \field{year}{2013}
+      \field{pages}{1487\bibrangedash 503}
+      \keyw{article}
+    \endentry
+    \entry{article2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \strng{fullhash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{usera}{5}
+      \field{userb}{17}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{1}
+      \keyw{article}
+    \endentry
+    \entry{article4}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5e69e8890477cb55064316e684e2c05c}
+      \strng{fullhash}{5e69e8890477cb55064316e684e2c05c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{An online database for plant image analysis software tools}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{An online database for plant image analysis software tools}}
+      \field{usera}{3}
+      \field{userb}{29}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{38}
+      \keyw{article}
+    \endentry
+    \entry{article7}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d6c7e1735b4c21285192238be214249f}
+      \strng{fullhash}{d6c7e1735b4c21285192238be214249f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root water uptake and water flow in the soil-root domain}}
+      \field{journaltitle}{Plant Roots. The Hidden Half}
+      \field{title}{{Root water uptake and water flow in the soil-root domain}}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{article9}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \strng{fullhash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{journaltitle}{Ecological Modelling}
+      \field{title}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userb}{3}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{presentation7}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{booktitle}{figshare}
+      \field{title}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userc}{240}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{userc}{266}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{poster5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{booktitle}{figshare}
+      \field{title}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{userc}{297}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{userc}{223}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{booktitle}{figshare}
+      \field{title}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{userc}{394}
+      \field{userd}{7}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{319}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{583}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot gets topological}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot gets topological}}
+      \field{userc}{249}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{userc}{213}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{userc}{295}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{article6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \strng{fullhash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{usera}{29}
+      \field{userb}{90}
+      \field{volume}{157:1}
+      \field{year}{2011}
+      \field{pages}{29\bibrangedash 39}
+      \keyw{article}
+    \endentry
+    \entry{article5}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \strng{fullhash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{journaltitle}{Journal of Experimental Botany}
+      \field{title}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{usera}{47}
+      \field{userb}{64}
+      \field{volume}{61:8}
+      \field{year}{2010}
+      \field{pages}{2145\bibrangedash 55}
+      \keyw{article}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{3}
+  \sortlist{entry}{chronological}
+    \entry{article1}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5fa9c91b1113a531de0fa09241c92566}
+      \strng{fullhash}{5fa9c91b1113a531de0fa09241c92566}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Plant Water Uptake in Drying Soils}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Plant Water Uptake in Drying Soils}}
+      \field{usera}{2}
+      \field{userb}{15}
+      \field{volume}{164:4}
+      \field{year}{2014}
+      \field{pages}{1619\bibrangedash 27}
+      \keyw{article}
+    \endentry
+    \entry{presentation2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{booktitle}{figshare}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userc}{6}
+      \field{year}{2014}
+      \keyw{presentation}
+    \endentry
+    \entry{article3}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a687117c56d3b7936155670381a5c127}
+      \strng{fullhash}{a687117c56d3b7936155670381a5c127}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userb}{2}
+      \field{volume}{5:}
+      \field{year}{2014}
+      \field{pages}{121}
+      \keyw{article}
+    \endentry
+    \entry{article10}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \strng{fullhash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{journaltitle}{Plant Soil}
+      \field{title}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{userb}{4}
+      \field{volume}{:}
+      \field{year}{2014}
+      \keyw{article}
+    \endentry
+    \entry{article2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \strng{fullhash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{usera}{5}
+      \field{userb}{17}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{1}
+      \keyw{article}
+    \endentry
+    \entry{article4}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5e69e8890477cb55064316e684e2c05c}
+      \strng{fullhash}{5e69e8890477cb55064316e684e2c05c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{An online database for plant image analysis software tools}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{An online database for plant image analysis software tools}}
+      \field{usera}{3}
+      \field{userb}{29}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{38}
+      \keyw{article}
+    \endentry
+    \entry{presentation6}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{userc}{28}
+      \field{userd}{1}
+      \field{year}{2013}
+      \keyw{presentation}
+    \endentry
+    \entry{article7}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d6c7e1735b4c21285192238be214249f}
+      \strng{fullhash}{d6c7e1735b4c21285192238be214249f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root water uptake and water flow in the soil-root domain}}
+      \field{journaltitle}{Plant Roots. The Hidden Half}
+      \field{title}{{Root water uptake and water flow in the soil-root domain}}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{article8}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0a85061710f02ade8480bc315513b1ce}
+      \strng{fullhash}{0a85061710f02ade8480bc315513b1ce}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{usera}{2}
+      \field{userb}{22}
+      \field{volume}{163:4}
+      \field{year}{2013}
+      \field{pages}{1487\bibrangedash 503}
+      \keyw{article}
+    \endentry
+    \entry{article9}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \strng{fullhash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{journaltitle}{Ecological Modelling}
+      \field{title}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userb}{3}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{poster1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{userc}{213}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{userc}{295}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{booktitle}{figshare}
+      \field{title}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{userc}{394}
+      \field{userd}{7}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{319}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{userc}{266}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{poster4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{583}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{userc}{223}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{presentation5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot gets topological}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot gets topological}}
+      \field{userc}{249}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{booktitle}{figshare}
+      \field{title}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{userc}{297}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation7}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{booktitle}{figshare}
+      \field{title}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userc}{240}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{article6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \strng{fullhash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{usera}{29}
+      \field{userb}{90}
+      \field{volume}{157:1}
+      \field{year}{2011}
+      \field{pages}{29\bibrangedash 39}
+      \keyw{article}
+    \endentry
+    \entry{article5}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \strng{fullhash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{journaltitle}{Journal of Experimental Botany}
+      \field{title}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{usera}{47}
+      \field{userb}{64}
+      \field{volume}{61:8}
+      \field{year}{2010}
+      \field{pages}{2145\bibrangedash 55}
+      \keyw{article}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{presentation2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{booktitle}{figshare}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userc}{6}
+      \field{year}{2014}
+      \keyw{presentation}
+    \endentry
+    \entry{article10}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a5eef83c1f70f507d36e7b4f4d7f1b44}{Lambrechts}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=e6812a54eeb886f80be5495dce49f6dc}{Lequeue}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=bf299fef6ccd9f50c704ff1f6c999a31}{Godin}{G\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=5ba396defa2d5f245d2384daeb11aa6a}{Bielders}{B\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=931ae4958ee66b19bfc32cbe65ae5ef0}{Lutts}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \strng{fullhash}{da6a6cfacd78a2ba6f860c004c3663ab}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{journaltitle}{Plant Soil}
+      \field{title}{{Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens: implications for phytostabilization}}
+      \field{userb}{4}
+      \field{volume}{:}
+      \field{year}{2014}
+      \keyw{article}
+    \endentry
+    \entry{article1}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=446d5ebac859356629dc6698e3110a2c}{Couvreur}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=df270c32dfe5f2671b216bda01407363}{Meunier}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5fa9c91b1113a531de0fa09241c92566}
+      \strng{fullhash}{5fa9c91b1113a531de0fa09241c92566}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Plant Water Uptake in Drying Soils}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Plant Water Uptake in Drying Soils}}
+      \field{usera}{2}
+      \field{userb}{15}
+      \field{volume}{164:4}
+      \field{year}{2014}
+      \field{pages}{1619\bibrangedash 27}
+      \keyw{article}
+    \endentry
+    \entry{article3}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=863e148f012fe2ede8477bdfa657e15d}{Tocquin}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a687117c56d3b7936155670381a5c127}
+      \strng{fullhash}{a687117c56d3b7936155670381a5c127}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{{Inflorescence development in tomato: gene functions within a zigzag model.}}
+      \field{userb}{2}
+      \field{volume}{5:}
+      \field{year}{2014}
+      \field{pages}{121}
+      \keyw{article}
+    \endentry
+    \entry{presentation6}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics}}
+      \field{userc}{28}
+      \field{userd}{1}
+      \field{year}{2013}
+      \keyw{presentation}
+    \endentry
+    \entry{article8}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=e7714c603656b8e2241b1131a79a009e}{Hill}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ed2fb672af38ae3147a5fb1383e56476}{Porco}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=596ffc386d9ecab25f6e87d04eaaf99e}{Zappala}{Z\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=23c253b43cbd46f193343457fc7b9494}{Mooney}{M\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=96a349fa5e3141731d7638ac2226468b}{Bennett}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0a85061710f02ade8480bc315513b1ce}
+      \strng{fullhash}{0a85061710f02ade8480bc315513b1ce}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{Root Systems Biology: Integrative Modeling across Scales, from Gene Regulatory Networks to the Rhizosphere}}
+      \field{usera}{2}
+      \field{userb}{22}
+      \field{volume}{163:4}
+      \field{year}{2013}
+      \field{pages}{1487\bibrangedash 503}
+      \keyw{article}
+    \endentry
+    \entry{article2}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \strng{fullhash}{e99ecf6c27e26345f5074c8afeefa2bb}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems}}
+      \field{usera}{5}
+      \field{userb}{17}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{1}
+      \keyw{article}
+    \endentry
+    \entry{article4}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=74b06b8e595e5b45bf9d087905a70177}{P�rilleux}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5e69e8890477cb55064316e684e2c05c}
+      \strng{fullhash}{5e69e8890477cb55064316e684e2c05c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{An online database for plant image analysis software tools}}
+      \field{journaltitle}{Plant Methods}
+      \field{title}{{An online database for plant image analysis software tools}}
+      \field{usera}{3}
+      \field{userb}{29}
+      \field{volume}{9:1}
+      \field{year}{2013}
+      \field{pages}{38}
+      \keyw{article}
+    \endentry
+    \entry{article7}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=a488d9880b5eaa6a6de22f636f81c439}{Hachez}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=caf63e38e24b2e2da78a66d179796cfc}{Chaumont}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d6c7e1735b4c21285192238be214249f}
+      \strng{fullhash}{d6c7e1735b4c21285192238be214249f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Root water uptake and water flow in the soil-root domain}}
+      \field{journaltitle}{Plant Roots. The Hidden Half}
+      \field{title}{{Root water uptake and water flow in the soil-root domain}}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{article9}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=191cd18185666f5b4a54409f8bf45405}{Pag�s}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \strng{fullhash}{cac9f5935f7744c2bc027048da1d0b7d}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{journaltitle}{Ecological Modelling}
+      \field{title}{{A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userb}{3}
+      \field{volume}{:}
+      \field{year}{2013}
+      \keyw{article}
+    \endentry
+    \entry{presentation7}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{booktitle}{figshare}
+      \field{title}{{A modeling approach to determine the contribution of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system}}
+      \field{userc}{240}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{Combining in vivo and in silico experiments to unravel root water uptake dynamics}}
+      \field{userc}{266}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{poster5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{booktitle}{figshare}
+      \field{title}{{Light transmission imaging as a useful tool to decrypt soil-root interactions}}
+      \field{userc}{297}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{booktitle}{figshare}
+      \field{title}{{New insights on the role of radial root conductivity on the overall water uptake dynamics}}
+      \field{userc}{223}
+      \field{userd}{2}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster2}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{booktitle}{figshare}
+      \field{title}{{Real time spatial analysis of root water uptake in rhizotrons}}
+      \field{userc}{394}
+      \field{userd}{7}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation3}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot: A novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{319}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster4}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot : a novel image analysis toolbox enabling quantitative analysis of root system architecture}}
+      \field{userc}{583}
+      \field{userd}{3}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation5}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{SmartRoot gets topological}}
+      \field{booktitle}{figshare}
+      \field{title}{{SmartRoot gets topological}}
+      \field{userc}{249}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{poster1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant continuum: which features regulate the uptake?}}
+      \field{userc}{213}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{poster}
+    \endentry
+    \entry{presentation1}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{booktitle}{figshare}
+      \field{title}{{Water dynamics in the soil-plant environment: which plant features regulate the uptake}}
+      \field{userc}{295}
+      \field{userd}{1}
+      \field{year}{2012}
+      \keyw{presentation}
+    \endentry
+    \entry{article6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=453aceb005ceaf54a47da15fee8b2a26}{Pages}{P\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \strng{fullhash}{aa6e2b38141c66eb8105beef3cc84a80}
+      \field{sortinit}{2}
+      \field{labeltitle}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{journaltitle}{PLANT PHYSIOLOGY}
+      \field{title}{{A Novel Image-Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture}}
+      \field{usera}{29}
+      \field{userb}{90}
+      \field{volume}{157:1}
+      \field{year}{2011}
+      \field{pages}{29\bibrangedash 39}
+      \keyw{article}
+    \endentry
+    \entry{article5}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0d9fa6e5e7de090fcad79e7d592c7425}{Draye}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f55fbaaca148300ac11f7752528cae3d}{Kim}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=8866a2e19de56ad6d30400f092ac3178}{Lobet}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=053fe0291230c10f71a6c351b12ff497}{Javaux}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \strng{fullhash}{9811d327bfddb9eaf9d5444cc03ab83a}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{journaltitle}{Journal of Experimental Botany}
+      \field{title}{{Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils}}
+      \field{usera}{47}
+      \field{userb}{64}
+      \field{volume}{61:8}
+      \field{year}{2010}
+      \field{pages}{2145\bibrangedash 55}
+      \keyw{article}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

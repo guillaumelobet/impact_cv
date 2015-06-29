@@ -1,10 +1,12 @@
-<?
+<?php
 
-	$user = $_POST['username'];
-	$paper = isset($_POST['paper']);
-    $presentation = isset($_POST['presentation']);
-    $poster = isset($_POST['poster']);
-    
+	
+	$user = $_GET['username'];
+	$paper = $_GET['paper'] == "paper";
+    $presentation = $_GET['presentation'] == "presentation";
+    $poster = $_GET['poster'] == "poster";   
+
+
 	// Get the JSON file and decode it
 	$impacturl = "https://impactstory.org/profile/".$user;
 	$json_str = file_get_contents($impacturl);
@@ -12,7 +14,7 @@
 	
 	$bibfile = "# Publication list of " . $json->about->given_name . " " . $json->about->surname . "\n";
 	$bibfile = $bibfile . " File generated using the impact_cv widget, created by Guillaume Lobet (Université de Liège) \n\n";
-	$bibfile = $bibfile . " Website: www.guillaumelobet.be/impact \n\n";
+	$bibfile = $bibfile . " Website: http://impact.guillaumelobet.be \n\n";
 	$bibfile = $bibfile . " Source code: https://github.com/guillaumelobet/impact_cv \n\n";
 	$bibfile = $bibfile . " " . date(DATE_RFC2822) . "\n \n";
 
@@ -37,7 +39,7 @@
 	foreach($products as $prod){
 		if(isset($prod->biblio)){
 			if($paper){
-				if(str::contains($prod->biblio->calculated_genre, 'article')){
+				if(strpos($prod->biblio->calculated_genre, 'article') !== false){
 					
 					// Get the metrics
 					$awards = $prod->awards;
@@ -47,15 +49,15 @@
 						foreach($metrics as $m){	
 
 							// Scopus citations
-							if(str::contains($m->display_provider, 'Scopus')){
+							if(strpos($m->display_provider, 'Scopus') !== false){
 			  					$citations = $citations + $m->display_count; 
 			  					array_push($hindex, $m->display_count);
 			  				}
 
 							// Mendeley metrics
-							if(str::contains($m->display_provider, 'Mendeley')){
+							if(strpos($m->display_provider, 'Mendeley') !== false){
 								// Readers
-								if(str::contains($m->interaction, 'readers')){
+								if(strpos($m->interaction, 'readers') !== false){
 			  						$readers = $readers + $m->display_count; 
 			  					}
 			  				}
@@ -66,7 +68,7 @@
   			}
 			if($presentation){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'slides')){ 
+				if(strpos($prod->biblio->calculated_genre, 'slides') !== false){ 
 					# Get the metrics
 					// Get the metrics
 					$awards = $prod->awards;
@@ -75,26 +77,26 @@
 						$metrics = $aw->metrics;
 						foreach($metrics as $m){
 							# Figshare metrics
-							if(str::contains($m->display_provider, 'Figshare')){
+							if(strpos($m->display_provider, 'figshare') !== false){
 				  				
 				  				# Figshare views
-				  				if(str::contains($m->interaction, 'views')){
+				  				if(strpos($m->interaction, 'views') !== false){
 									$figshare_views = $figshare_views + $m->display_count; 
 								}
 								# Figshare shares
-				  				if(str::contains($m->interaction, 'shares')){
+				  				if(strpos($m->interaction, 'shares') !== false){
 									$figshare_shares = $figshare_shares + $m->display_count; 
 								}
 				  			}
 							# Slideshare metrics
-							if(str::contains($m->display_provider, 'Slideshare')){
+							if(strpos($m->display_provider, 'Slideshare') !== false){
 				  				
 				  				# Figshare views
-				  				if(str::contains($m->interaction, 'views')){
+				  				if(strpos($m->interaction, 'views') !== false){
 									$slideshare_views = $slideshare_views + $m->display_count; 
 								}
 								# Figshare shares
-				  				if(str::contains($m->interaction, 'downloads')){
+				  				if(strpos($m->interaction, 'downloads') !== false){
 									$slideshare_downloads = $slideshare_downloads + $m->display_count; 
 								}
 				  			}	
@@ -106,7 +108,7 @@
 			}
 			if($poster){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'poster')){ 
+				if(strpos($prod->biblio->calculated_genre, 'poster') !== false){ 
 					# Get the metrics
 										
 					$awards = $prod->awards;
@@ -116,14 +118,14 @@
 						foreach($metrics as $m){	
 
 							# Figshare metrics
-							if(str::contains($m->display_provider, 'Figshare')){
+							if(strpos($m->display_provider, 'figshare') !== false){
 				  				
 				  				# Figshare views
-				  				if(str::contains($m->interaction, 'views')){
+				  				if(strpos($m->interaction, 'views') !== false){
 									$figshare_views = $figshare_views + $m->display_count; 
 								}
 								# Figshare shares
-				  				if(str::contains($m->interaction, 'shares')){
+				  				if(strpos($m->interaction, 'shares') !== false){
 									$figshare_shares = $figshare_shares + $m->display_count; 
 								}
 				  			}		  					
@@ -138,14 +140,14 @@
  	
  	// compute the h-index
  	$hi = 0;
-  	rsort($hindex);
+  	rsort($hindex);  	
 	foreach($hindex as $x=>$x_value) {
-  		if($x_value < ($x+1)) $hi = $hi + 1;
+  		if(($x+1) <= $x_value ) $hi = $hi + 1;
 	}
 
 
   	// Print the metrics
-	$bibfile = $bibfile . "## Overview hello \n";	
+	$bibfile = $bibfile . "## Overview \n";	
 
 	if($paper){
 		$bibfile = $bibfile . " - Number of papers = " . $tot_papers . " \n";
@@ -166,11 +168,12 @@
 	}
 	$bibfile  =$bibfile . "\n";
 	// Get the papers
-	if($paper) $bibfile = $bibfile . "## Papers \n";	
-	foreach($products as $prod){
-		if(isset($prod->biblio)){
-			if($paper){
-				if(str::contains($prod->biblio->calculated_genre, 'article')){
+	if($paper){
+		$bibfile = $bibfile . "## Papers \n";	
+		foreach($products as $prod){
+			if(isset($prod->biblio)){
+
+				if(strpos($prod->biblio->calculated_genre, 'article') !== false){
 
 
 					// Get the missing information in PubMed
@@ -220,15 +223,15 @@
 						foreach($metrics as $m){	
 
 							// Scopus citations
-							if(str::contains($m->display_provider, 'Scopus')){
+							if(strpos($m->display_provider, 'Scopus') !== false){
 			  					$bibfile = $bibfile . ", Scopus citations = " . $m->display_count . ", "; 
 			  				}
 
 							// Mendeley metrics
-							if(str::contains($m->display_provider, 'Mendeley')){
+							if(strpos($m->display_provider, 'Mendeley') !== false){
 
 								// Readers
-								if(str::contains($m->interaction, 'readers')){
+								if(strpos($m->interaction, 'readers') !== false){
 			  						$bibfile = $bibfile . "Mendeley readers = " . $m->display_count . ""; 
 			  					}
 			  				}
@@ -243,12 +246,12 @@
 			
 
   	# Get the presentations
-  	if($presentation) $bibfile = $bibfile . "## Presentations \n";
-	foreach($products as $prod){
-		if(isset($prod->biblio)){
-  			if($presentation){
+  	if($presentation){
+  		$bibfile = $bibfile . "## Presentations \n";
+		foreach($products as $prod){
+			if(isset($prod->biblio)){
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'slides')){ //&& str::contains($prod->biblio->repository, 'figshare')){
+				if(strpos($prod->biblio->calculated_genre, 'slides') !== false){ //&& str::contains($prod->biblio->repository, 'figshare')){
 
 					# Get the general informations
 			  		$bibfile = $bibfile . $key2 . '. **' . $prod->biblio->title . "**, \n";
@@ -263,26 +266,26 @@
 						foreach($metrics as $m){
 
 							# Figshare metrics
-							if(str::contains($m->display_provider, 'Figshare')){
+							if(strpos($m->display_provider, 'figshare') !== false){
 				  				
 				  				# Figshare views
-				  				if(str::contains($m->interaction, 'views')){
+				  				if(strpos($m->interaction, 'views') !== false){
 									$bibfile = $bibfile . ", views = " . $m->display_count; 
 								}
 								# Figshare shares
-				  				if(str::contains($m->interaction, 'shares')){
+				  				if(strpos($m->interaction, 'shares') !== false){
 									$bibfile = $bibfile . ", shares = " . $m->display_count; 
 								}
 				  			}
 							# Slideshare metrics
-							if(str::contains($m->display_provider, 'Slideshare')){
+							if(strpos($m->display_provider, 'Slideshare') !== false){
 				  				
 				  				# Figshare views
-				  				if(str::contains($m->interaction, 'views')){
+				  				if(strpos($m->interaction, 'views') !== false){
 									$bibfile = $bibfile . ", views = " . $m->display_count; 
 								}
 								# Figshare shares
-				  				if(str::contains($m->interaction, 'downloads')){
+				  				if(strpos($m->interaction, 'downloads') !== false){
 									$bibfile = $bibfile . ", downloads = " . $m->display_count; 
 								}
 				  			}	
@@ -297,12 +300,13 @@
   	}
 
   	# Get the posters
-	if($poster) $bibfile = $bibfile . "## Posters \n";  		
-	foreach($products as $prod){
-		if(isset($prod->biblio)){
-  			if($poster){
+  	if($poster){
+  		$bibfile = $bibfile . "## Posters \n";  		
+  		foreach($products as $prod){
+			if(isset($prod->biblio)){
+
 				// Print the presentations (from figshare)
-				if(str::contains($prod->biblio->calculated_genre, 'poster') && str::contains($prod->biblio->repository, 'figshare')){
+				if(strpos($prod->biblio->calculated_genre, 'poster')  !== false && strpos($prod->biblio->repository, 'figshare') !== false){
 
 					# Get the general informations
 			  		$bibfile = $bibfile . $key3 . '. **' . $prod->biblio->title . "** \n";
@@ -317,14 +321,14 @@
 						foreach($metrics as $m){
 
 							# Figshare metrics
-							if(str::contains($m->display_provider, 'Figshare')){
+							if(strpos($m->display_provider, 'figshare') !== false){
 				  				
 				  				# Figshare views
-				  				if(str::contains($m->interaction, 'views')){
+				  				if(strpos($m->interaction, 'views') !== false){
 									$bibfile = $bibfile . ", views = " . $m->display_count; 
 								}
 								# Figshare shares
-				  				if(str::contains($m->interaction, 'shares')){
+				  				if(strpos($m->interaction, 'shares') !== false){
 									$bibfile = $bibfile . ", shares = " . $m->display_count; 
 								}
 				  			}
@@ -336,23 +340,37 @@
   			}
 		}
 	}
-	echo $bibfile;
 
-		$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.md';
-		file_put_contents($fname , $bibfile);
+	// Turn on output buffering
+	ob_start();
+	echo $bibfile;
+	
+	//  Return the contents of the output buffer
+	$htmlStr = ob_get_contents();
+	
+	// Clean (erase) the output buffer and turn off output buffering
+	ob_end_clean(); 
+
+	$fname = dirname(__FILE__).'/cv/impact_cv_'.$user.'.md';
+
+	// Write final string to file
+	file_put_contents($fname, $htmlStr);
+
 		
-		if (file_exists($fname)) {
-	    	header('Content-Description: File Transfer');
-	    	header('Content-Type: application/octet-stream');
-	    	header('Content-Disposition: attachment; filename='.basename($fname));
-	    	header('Expires: 0');
-	    	header('Cache-Control: must-revalidate');
-	    	header('Pragma: public');
-	    	header('Content-Length: ' . filesize($fname));
-	    	ob_clean();
-	    	flush();
-	    	readfile($fname);
-			unlink($fname);	
-		}
+	if (file_exists($fname)) {
+	    header('Content-Description: File Transfer');
+	    header('Content-Type: application/octet-stream');
+	    header('Content-Disposition: attachment; filename='.basename($fname));
+	    header('Expires: 0');
+	    header('Cache-Control: must-revalidate');
+	    header('Pragma: public');
+	    header('Content-Length: ' . filesize($fname));
+	    ob_clean();
+	    flush();
+	    readfile($fname);
+		unlink($fname);	
+		exit;
+	}
+
 
 ?>

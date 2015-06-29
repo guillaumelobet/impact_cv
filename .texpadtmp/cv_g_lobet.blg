@@ -1,0 +1,49 @@
+[1] Config.pm:387> INFO - This is Biber 1.6
+[1] Config.pm:390> INFO - Logfile is '/Users/guillaumelobet/Dropbox/research/admin/curriculum_vitae/Guillaume/impact_cv/.texpadtmp/cv_g_lobet.blg'
+[146] biber-darwin:218> INFO - === Fri Jun 13, 2014, 16:36:31
+[146] Biber.pm:325> INFO - Reading '/Users/guillaumelobet/Dropbox/research/admin/curriculum_vitae/Guillaume/impact_cv/.texpadtmp/cv_g_lobet.bcf'
+[306] Biber.pm:623> INFO - Found 0 citekeys in bib section 0
+[306] Biber.pm:600> INFO - Using all citekeys in bib section 1
+[307] Biber.pm:623> INFO - Found 0 citekeys in bib section 0
+[307] Biber.pm:600> INFO - Using all citekeys in bib section 2
+[307] Biber.pm:623> INFO - Found 0 citekeys in bib section 0
+[307] Biber.pm:600> INFO - Using all citekeys in bib section 3
+[308] Biber.pm:623> INFO - Found 0 citekeys in bib section 0
+[328] Biber.pm:2995> INFO - Processing section 1
+[351] Biber.pm:3129> INFO - Looking for bibtex format file 'impactbib.bib' for section 1
+[353] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[355] bibtex.pm:775> INFO - Found BibTeX data source 'impactbib.bib'
+[440] Utils.pm:169> WARN - The field 'pages' in entry 'article7' cannot be null, deleting it
+[442] Utils.pm:169> WARN - The field 'pages' in entry 'article9' cannot be null, deleting it
+[444] Utils.pm:169> WARN - The field 'pages' in entry 'article10' cannot be null, deleting it
+[613] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[614] Biber.pm:2887> INFO - Sorting 'entry' list 'chronological' keys
+[614] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[736] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[737] Biber.pm:2887> INFO - Sorting 'entry' list 'ydnt' keys
+[737] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1181] Biber.pm:2995> INFO - Processing section 2
+[1181] Biber.pm:3129> INFO - Looking for bibtex format file 'impactbib.bib' for section 2
+[1295] Utils.pm:169> WARN - The field 'pages' in entry 'article7' cannot be null, deleting it
+[1297] Utils.pm:169> WARN - The field 'pages' in entry 'article9' cannot be null, deleting it
+[1300] Utils.pm:169> WARN - The field 'pages' in entry 'article10' cannot be null, deleting it
+[1563] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1564] Biber.pm:2887> INFO - Sorting 'entry' list 'chronological' keys
+[1564] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1741] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1741] Biber.pm:2887> INFO - Sorting 'entry' list 'ydnt' keys
+[1741] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[2142] Biber.pm:2995> INFO - Processing section 3
+[2143] Biber.pm:3129> INFO - Looking for bibtex format file 'impactbib.bib' for section 3
+[2216] Utils.pm:169> WARN - The field 'pages' in entry 'article7' cannot be null, deleting it
+[2218] Utils.pm:169> WARN - The field 'pages' in entry 'article9' cannot be null, deleting it
+[2219] Utils.pm:169> WARN - The field 'pages' in entry 'article10' cannot be null, deleting it
+[2389] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[2389] Biber.pm:2887> INFO - Sorting 'entry' list 'chronological' keys
+[2389] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[2514] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[2514] Biber.pm:2887> INFO - Sorting 'entry' list 'ydnt' keys
+[2514] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[2956] bbl.pm:472> INFO - Writing '/Users/guillaumelobet/Dropbox/research/admin/curriculum_vitae/Guillaume/impact_cv/.texpadtmp/cv_g_lobet.bbl' with encoding 'UTF-8'
+[2984] bbl.pm:545> INFO - Output to /Users/guillaumelobet/Dropbox/research/admin/curriculum_vitae/Guillaume/impact_cv/.texpadtmp/cv_g_lobet.bbl
+[2985] Biber.pm:105> INFO - WARNINGS: 9
