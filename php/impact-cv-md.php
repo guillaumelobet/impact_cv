@@ -8,7 +8,7 @@
 
 
 	// Get the JSON file and decode it
-	$impacturl = "https://v1.impactstory.org/".$user;
+	$impacturl = "https://v1.impactstory.org/profile/".$user;
 	$json_str = file_get_contents($impacturl);
 	$json = json_decode($json_str);
 	
