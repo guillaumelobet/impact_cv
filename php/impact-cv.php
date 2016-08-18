@@ -6,7 +6,7 @@
     $poster = isset($_POST['poster']);
     
 	// Get the JSON file and decode it
-	$impacturl = "https://impactstory.org/profile/".$user;
+	$impacturl = "https://v1.impactstory.org/".$user;
 	$json_str = file_get_contents($impacturl);
 	$json = json_decode($json_str);
 	
